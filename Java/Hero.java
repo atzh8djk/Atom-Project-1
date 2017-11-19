@@ -15,7 +15,7 @@ public class Hero {
 	//private HeroLocation heroLocation;//ヒーローの立ち位置
 	//private Sword sword;
 	//private static int money;
-	
+
 	/*public Point getHeroLocation() {
 		return this.heroLocation;
 	}
@@ -23,15 +23,15 @@ public class Hero {
 	/*public HeroLocation getHeroLocation(){
 		return this.heroLocation;
 	}*/
-	
+
 	public String getName() {
 		return this.name;
 		}
-	
+
 	public String getColourValue() {
 		return this.colourValue;
 		}
-	
+
 	public int getHp() {
 		return this.hp;
 		}
@@ -63,7 +63,7 @@ public class Hero {
 		}
 		this.name = name; // 検査完了！代入しても大丈夫。
 	}
-	
+
 	/**
 	 * 下記の４つのフィールド<strong>全て</strong>指定もしくは指定なしを引数としてコンストラクターを起動できる
 	 * DSIでは皆無、全部の２パターンを引数として設定している
@@ -94,7 +94,7 @@ public class Hero {
 		this.name = null;//コンスト引数が指定無ではnull、指定時はその引数がインスタンスのフィールドに格納
 		this.zoomLevel = 0;
 		this.rotation = 0;
-		this.colourValue = "デフォルト";	
+		this.colourValue = "デフォルト";
 	}
 
 	void bye() {
