@@ -5,10 +5,10 @@ public class Main {
 		Hero h = new Hero();
 		//Hero h2 = new Hero(0, "ここう",25000,5, "夜");
 		Point p = new Point(998,887);
-		SuperHero sh =new SuperHero(14,"akira");
+		SuperHero sh =new SuperHero(14,"Akira");
 		HeroLocation heroLocation = new HeroLocation(151438,1375);
-		
-		//h.setName("akira kato");		// 長さ0文字の名前をセットしようとする
+
+		//h.setName("Akira kato");		// 長さ0文字の名前をセットしようとする
 		System.out.println("ヒーロークラスが引数なしでインスタンス化された");
 		//System.out.println("勇者の居場所は" + h.getHeroLocation());
 		System.out.println("勇者の名前は" + h.getName());
